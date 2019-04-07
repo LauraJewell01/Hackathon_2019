@@ -1,0 +1,143 @@
+ * {
+   -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Verdana, serif; 
+	height: 100%;
+}
+.background-display {
+	display: block;
+}
+
+.background-img {
+	background-color: white;
+	background-image: url("laptop-flowers.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	overflow: hidden;
+}
+
+nav {
+	background-color: #1da1f2; /*Twitter Blue*/
+	opacity: .9;
+}
+
+
+.navbar > .container, .navbar > .container-fluid {
+	justify-content: flex-start !important;
+}
+
+.navbar-brand { /*HappyHire*/
+	color: #343a40; /*gray*/
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	font-size: 2em;	
+	margin-right: 3em; 
+}
+
+.navbar-header {
+	align-self: flex-end;
+	width: auto;	
+}
+
+.navbar-nav {
+	flex-direction: row;
+	align-items: center;
+	margin-right: 15em;
+}
+
+.navbar-nav>li>a {
+    line-height: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+a {
+    color: #337ab7; /*blue*/
+    text-decoration: none;
+    background-color: transparent;
+}
+
+form {
+	justify-content: flex-start !important;
+	margin-top:1em;
+}
+
+.form-control {
+	width: 20em !important;
+	margin: 1em;
+	border-radius: 1rem;
+}
+
+.btn {
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 1em;
+	border-radius: 1rem;
+}
+
+main {
+	padding: 1em 3em 1em 3em;
+	margin-left: 0em;
+	margin-right: 0em;
+
+}
+
+.fill {
+ 	min-height: 100vh;
+}
+
+.about-site {
+	background-color: white;
+	opacity:.90;
+	margin:3em 3em 8em 3em;
+	border-radius: 5px;
+}
+
+.instructions {
+	background-color: white;
+	opacity:.90;
+	margin: 3em 3em 8em 3em;
+	border-radius: 5px;
+}
+
+h2, p {
+	font-weight: 700 !important;
+	color: #343a40; /*gray*/
+}	
+
+h2 {
+	font-family: 'Nunito', sans-serif;
+	padding: .5em;
+}
+
+p {
+	font-size: 22px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+footer {
+	background-color: #1da1f2; /*Twitter Blue*/
+	position: fixed;
+	height: 5em;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	opacity: .9;
+}
+
+p.copyright {
+	color: #343a40!important; /*gray*/
+	padding: 5px;
+	font-weight: 400;
+}
+
+
+
+
